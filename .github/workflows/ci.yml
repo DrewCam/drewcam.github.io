@@ -31,6 +31,6 @@ jobs:
           mkdocs-git-revision-date-localized-plugin \
           mkdocs-linkcheck \
           beautifulsoup4 \
-          diskcache
+          diskcache \
 
       - run: mkdocs gh-deploy --force
