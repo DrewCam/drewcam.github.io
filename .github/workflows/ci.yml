@@ -30,9 +30,6 @@ jobs:
             mkdocs-material-
       - run: pip install \
           mkdocs-material \
-          mkdocs-awesome-pages-plugin \
           mkdocs-git-revision-date-localized-plugin \
-          mkdocs-linkcheck \
-          beautifulsoup4 \
-          diskcache
+          mkdocs-linkcheck
       - run: mkdocs gh-deploy --force
