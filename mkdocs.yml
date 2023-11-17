@@ -78,9 +78,10 @@ extra:
       link: https://github.com/DrewCam
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/drew-cam/
+    - icon: simple/credly
+      link: https://www.credly.com/users/drew-cameron
 
 nav:
   - Home: index.md
-  - About: about.md
+ # - About: about.md
   - Blog: blog/index.md
-
