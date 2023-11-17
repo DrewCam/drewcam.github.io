@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Drew C.
 site_url: https://drewcam.github.io
 site_author: Drew C.
 site_description: A personal Docs and Blog site.
@@ -82,5 +82,5 @@ extra:
 nav:
   - Home: index.md
   - About: about.md
-  - Blog: blog\index.md
+  - Blog: blog/index.md
 

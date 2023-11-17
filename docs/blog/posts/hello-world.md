@@ -1,13 +1,13 @@
 ---
-draft: true 
+draft: false 
 date: 2023-11-16
 categories:
-  - Hello
-  - World
+- hello
+- world
 ---
 
 # Hello world!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+Setting up a Github pages with mkdocs to host some notes, thoughts, and experiences in Cyber Security.
+
+Not much here as yet but will steadily add to it as I go.

@@ -1,68 +1,27 @@
-# Welcome to drewcam.github.io
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Fàilte!, Is mise Drew 👋
 
-## Code Annotation Examples
+## A Little Bit About Me
 
-### Codeblocks
+Scottish-born, Aussie by choice since 2005. Cyber Security Analyst by profession, focusing on Microsoft Cloud technologies. This is my wee corner of the net to share the bits and bobs that I find interesting or might help someone out there.
 
-Some `code` goes here.
+## My Work Journey
 
-### Plain codeblock
+- **From Building to Bartending**: Started off as an apprentice shopfitter, then spent a good ten years mixing drinks and running bars.
+- **Tech Transition**: Shifted gears into tech - started as a Service Desk Analyst, then Systems Admin, and now, I'm all about cybersecurity.
+- **Uni Life**: Decided to hit the books in my mid-20s. Started with Computer Science, then found my calling in Cyber Security, graduating from Edith Cowan University with a BsC.
+- **What I Do Now**: Cyber Security Analyst: frontliner, constantly learning, and always tinkering. On the path of tackling certifications to stay sharp.
 
-A plain codeblock:
+## Life Beyond Work
 
-```
-Some code here
-def myfunction()
-// some comment
-```
+- **Gamer at Heart**: Used to be big into Dota 2, but now I'm a bit more casual.
+- **Tech and Productivity Enthusiast**: Love tinkering with gadgets and finding new ways to be productive.
+- **Sharing's Caring**: I believe in sharing knowledge and picking up new things from the cyber community.
 
-#### Code for a specific language
+## About The Blog
 
-Some more code with the `py` at the start:
+Here's where I'll share my take on cybersecurity, talk about the games I'm playing, and drop some random tech wisdom. Got a question or a cool idea for a post? Let me know!
 
-``` py
-import tensorflow as tf
-def whatever()
-```
+## Let's Connect
 
-#### With a title
-
-``` py title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### With line numbers
-
-``` py linenums="1"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### Highlighting lines
-
-``` py hl_lines="2 3"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-## Icons and Emojs
-
-:smile: 
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
+Keen to chat? Hit me up on [LinkedIn](https://www.linkedin.com/in/drew-cam/) or take a peek at what I'm up to on [GitHub](https://github.com/DrewCam).
