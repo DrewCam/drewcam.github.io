@@ -5,5 +5,18 @@
 }
 
 [data-md-color-scheme="slate"] {
-    --md-hue: 216;
+    --md-hue: 100;
 }
+
+[data-md-color-scheme="light-forest"] {
+    --md-primary-fg-color:        #4CAF50; /* Vibrant green, like fresh leaves */
+    --md-primary-fg-color--light: #C8E6C9; /* Light green, reminiscent of sunlit leaves */
+    --md-primary-fg-color--dark:  #388E3C; /* Darker green, representing the deeper parts of the forest */
+  }
+
+  [data-md-color-scheme="dark-forest"] {
+    --md-primary-fg-color:        #1B5E20; /* Deep forest green */
+    --md-primary-fg-color--light: #4C8C4A; /* Mid-tone green, like moss */
+    --md-primary-fg-color--dark:  #003300; /* Very dark green, almost black, like the forest at night */
+  }
+  
