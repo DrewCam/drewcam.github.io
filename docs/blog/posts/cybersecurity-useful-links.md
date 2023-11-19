@@ -109,5 +109,5 @@ Other links and resources that may prove useful.
 
 ## Advisories
 
-[ASD Alerts & Advisories](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories)
-[CISA  - America's Cyber Defense Agency](https://www.cisa.gov/news-events/cybersecurity-advisories)
+- [ASD Alerts & Advisories](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories)
+- [CISA  - America's Cyber Defense Agency](https://www.cisa.gov/news-events/cybersecurity-advisories)
