@@ -74,6 +74,6 @@ extra:
       link: https://www.credly.com/users/drew-cameron
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Blog: blog/index.md
   #  - About: about.md
