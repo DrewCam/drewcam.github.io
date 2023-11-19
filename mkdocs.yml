@@ -8,23 +8,15 @@ site_description: A personal Docs and Blog site.
 repo_name: DrewCam/drewcam.github.io
 repo_url: https://github.com/DrewCam/drewcam.github.io
 
-extra_css:
-  - stylesheets/extra.css
+#extra_css:
+#  - stylesheets/extra.css
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      primary: custom
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      primary: custom
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+    scheme: slate
+    primary: deep purple
+    accent: cyan
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -82,6 +74,6 @@ extra:
       link: https://www.credly.com/users/drew-cameron
 
 nav:
-  - Home: index.md
- # - About: about.md
+  - Home: README.md
   - Blog: blog/index.md
+  #  - About: about.md
