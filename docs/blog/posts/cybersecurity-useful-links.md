@@ -33,8 +33,8 @@ Some gamified learning platforms for learning and tinkering.
 
 ## SOC Analyst
 
-[WA SOC - Analyst Induction](https://soc.cyber.wa.gov.au/training/analyst-induction/) All round brilliant resource for SOC Analysts starting out.
-[Letsdefend.io - Soc Analyst path](https://app.letsdefend.io/path/soc-analyst-learning-path)
+- [Letsdefend.io - Soc Analyst path](https://app.letsdefend.io/path/soc-analyst-learning-path)
+- [Rangeforce - SOC Level 1](https://www.rangeforce.com/cyber-skills-training)
 
 ## Microsoft Tooling
 
