@@ -80,6 +80,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Obsidian:
-    - obsidian/index.md
-    - task callouts: obsidian/task-callouts.md
+    - obsidian/task-callouts.md
+    #- obsidian/index.md
+    #- task callouts: obsidian/task-callouts.md
   #  - About: about.md
