@@ -76,4 +76,5 @@ extra:
 nav:
   - Home: index.md
   - Blog: blog/index.md
+  - Obsidian: obsidian/index.md
   #  - About: about.md
