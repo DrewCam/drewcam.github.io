@@ -10,8 +10,6 @@ tags:
   - Cybersecurity
   - Training
   - Certifications
-description: >
-  Collection of links and resources that could be useful if you are looking to get into Cybersecurity.
 ---
 
 # Cybersecurity - useful links, Training and Certs
