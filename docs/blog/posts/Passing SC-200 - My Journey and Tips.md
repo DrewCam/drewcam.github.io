@@ -1,6 +1,6 @@
 ---
 title: Passing SC-200 - My Journey and Tips
-author: [drewcam]
+authors: [drewcam]
 draft: false 
 date: 2024-05-07
 categories:
