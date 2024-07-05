@@ -78,5 +78,5 @@ nav:
   - Blog: blog/index.md
   - obsidian:
     - obsidian/index.md
-    - Task Callouts: obsidian/task-callouts.md
+    - task callouts: obsidian/task-callouts.md
   #  - About: about.md

@@ -1,12 +1,8 @@
----
-date: 2024-05-07
----
-
 # Task callouts
 
 I was asked to share my task callouts, so here they are. I use these to manage my tasks in Obsidian. I tag my tasks with `#task` and use the following callouts to manage them.
 
-plugins 
+plugins
 - Dataview
 - tasks
 
