@@ -2,6 +2,7 @@
 title: Passing SC-200 - My Journey and Tips
 draft: false 
 date: 2024-05-07
+description: Learn about my journey to passing the SC-200 exam, including my preparation strategies, challenges, and tips for success.
 categories:
   - Cybersecurity
   - Microsoft
@@ -16,6 +17,8 @@ tags:
   - SC-200
   - Security Operations Analyst
   - SecOps
+links:
+    - cybersecurity-useful-links.md
 ---
 
 # Passing SC-200: My Journey and Tips
