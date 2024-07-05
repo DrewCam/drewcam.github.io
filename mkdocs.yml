@@ -39,7 +39,6 @@ plugins:
       enable_creation_date: true
   - blog: 
       authors: true
-      authors_profiles: true
 
 # Extensions
 markdown_extensions:
