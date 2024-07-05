@@ -27,6 +27,8 @@ links:
 
 As a Cyber Security Analyst working daily with Microsoft Sentinel and Defender, passing the SC-200 exam was a must have for me. Here's a detailed account of my preparation journey, challenges, and the strategies that ultimately led to success. Whether you're just starting or refining your study plan, I hope my experience helps you navigate your path to certification.
 
+<!-- more -->
+
 ## Exam Overview
 
 The SC-200 exam focuses on three primary areas:
