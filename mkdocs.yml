@@ -76,7 +76,7 @@ extra:
 nav:
   - Home: index.md
   - Blog: blog/index.md
-  - Obsidian:
+  - obsidian:
     - obsidian/index.md
     - Task Callouts: obsidian/task-callouts.md
   #  - About: about.md
