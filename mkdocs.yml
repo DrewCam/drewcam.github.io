@@ -37,8 +37,6 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized:
       enable_creation_date: true
-  - blog: 
-      authors: false
 
 # Extensions
 markdown_extensions:
