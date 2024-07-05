@@ -20,6 +20,9 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
     - toc.integrate
     - navigation.top
     - search.suggest
