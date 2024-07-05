@@ -19,6 +19,8 @@ tags:
   - SecOps
 links:
   - posts/cybersecurity-useful-links.md
+description: >
+  Detailed account of my preparation journey, challenges, and strategies that ultimately led to success in passing the SC-200 exam.
 ---
 
 # Passing SC-200: My Journey and Tips
