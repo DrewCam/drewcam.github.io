@@ -16,6 +16,8 @@ tags:
 
 Based on the advisory from the [ACSC](https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection), [WA Cyber Security Unit (DGOV Technical)](https://soc.cyber.wa.gov.au/advisories/20230525001-State-Sponsored-Cyber-Actor-Living-off-the-Land-to-Evade-Detection/?h=volt) and observations detailed by [Microsoft](https://www.cyber.gov.au/about-us/advisories/prc-state-sponsored-cyber-actor-living-off-the-land-to-evade-detection) on the Volt Typhoon's methods, the hypothesis for this threat hunt revolves around the likelihood that the Volt Typhoon threat group is actively exploiting critical infrastructure systems within our monitored environments by employing living-off-the-land techniques. These techniques include the creation of domain controller installation media, establishment of internal proxies, and use of custom FRP executables to avoid detection and maintain persistence.
 
+<!-- more -->
+
 ### Assumptions
 
 1. Volt Typhoon could use known living-off-the-land binary (LOLBin) commands and procedures, as indicated by past behaviours targeting similar entities in the U.S.
