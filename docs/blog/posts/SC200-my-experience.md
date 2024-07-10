@@ -66,7 +66,7 @@ KQL is a significant component of the exam. I mainly focused on resources like:
 ### Additional Learning Resources
 
 **YouTube**:
-I found the AzureVlog YouTube channel particularly useful for deployment and threat hunting videos. It's a great resource for visual learners.
+I found the [AzureVlog](https://www.youtube.com/channel/UC_5b0_6qIt8DCC5zbz3XivA) YouTube channel particularly useful for deployment and threat hunting videos. It's a great resource for visual learners.
 
 **Udemy**:
 I tried the following Udemy courses:
@@ -78,6 +78,10 @@ Although I didn't finish either course, they provided valuable insights and stru
 
 **ESI Instructor-Led Training**:
 I attended two ESI instructor-led sessions. The first was excellent, while the second showed signs of outdated content and labs. Nevertheless, these sessions were highly beneficial for interactive learning.
+
+While taking part in the ESI training I completed the MS Learn course [Course SC-200T00-A: Microsoft Security Operations Analyst](https://learn.microsoft.com/en-us/training/courses/sc-200t00).
+
+The labs can be found [here](https://microsoftlearning.github.io/SC-200T00A-Microsoft-Security-Operations-Analyst/)
 
 ### Exam Strategy
 
