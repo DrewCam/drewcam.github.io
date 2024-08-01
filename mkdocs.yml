@@ -76,6 +76,10 @@ extra:
     - icon: simple/credly
       link: https://www.credly.com/users/drew-cameron
 
+  analytics:
+    provider: google
+    property: G-VZ89RH4M5X
+
 nav:
   - Home: index.md
   - Blog: blog/index.md
