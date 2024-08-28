@@ -22,6 +22,7 @@ Collection of links and resources that could be useful if you are looking to get
 - [Cisco Skills for all](https://skillsforall.com/) - Fair amount of free content, certs and badges.
 - [Career path - Junior Cybersecurity Analyst](https://skillsforall.com/career-path/cybersecurity?courseLang=en-US)
 - [Rangeforce - Cybersecurity Essentials](https://www.rangeforce.com/)
+- [Security Analyst Induction - WA Cyber Security Unit (DGOV Technical)](https://soc.cyber.wa.gov.au//training/analyst-induction/?h=induction)
 
 ## Gamified/CTF
 
@@ -98,14 +99,18 @@ Other links and resources that may prove useful.
 - [NCSC - UK's National Cyber Security Centre](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
 - [CyberSeek](https://www.cyberseek.org/pathway.html) Can be useful for optimising job searches, but it is US oriented.
 
-## News, Blogs, Podcasts
+## News & Blogs
 
 - [bleepingcomputer.com](https://www.bleepingcomputer.com/)
 - [All Info Sec News Aggregator](https://allinfosecnews.com/)
 - [Talkback - smart infosec resource aggregator](https://talkback.sh/)
 - [Daniel Miessler's blog](https://danielmiessler.com/blog/build-successful-infosec-career/)
+
+## Podcasts
+
 - [Cyberwire - Daily news podcast](https://thecyberwire.com/podcasts/daily-podcast)
 - [Darknet Diaries - True stories from the dark side of the internet](https://darknetdiaries.com/)
+- [Risky Business - Risky Business](https://www.risky.biz/)
 
 ## Advisories
 
