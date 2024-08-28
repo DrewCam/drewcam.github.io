@@ -1,27 +1,23 @@
 ---
-title: Passing SC-200 - My Journey and Tips
+title: Passing SC-200
 draft: false 
 date: 2024-05-07
-description: Learn about my journey to passing the SC-200 exam, including my preparation strategies, challenges, and tips for success.
+description: A break down on passing the SC-200 exam, including preparation strategies, challenges, and tips for success.
 categories:
   - Cybersecurity
+  - Certifications
   - Microsoft
-  - SC-200
   - Security Operations Analyst
-  - SecOps
 tags:
   - Cybersecurity
   - Training
-  - Certifications
+  - Certifications/Microsoft
   - Microsoft
   - SC-200
   - Security Operations Analyst
-  - SecOps
 links:
     - cybersecurity-useful-links.md
 ---
-
-# Passing SC-200: My Journey and Tips
 
 ## Introduction
 
@@ -43,11 +39,11 @@ You can find more details on the official Microsoft Learn page: [Exam SC-200: Mi
 
 ### Understanding My Weaknesses
 
-Despite my extensive experience with Microsoft Sentinel and Defender, I failed my first attempt. I realized my weakness was in Defender for Cloud, which we don't manage for many of our clients. This insight was crucial for adjusting my study plan and focusing on weaker areas.
+Despite my experience with Microsoft Sentinel and Defender, I failed my first attempt. I realized my weakness was in Defender for Cloud, which we don't manage for many of our clients. This insight was crucial for adjusting my study plan and focusing on weaker areas.
 
 ### Study Resources
 
-**Microsoft Learn Modules**:
+**Microsoft Learn Modules**: 
 I completed the MS Learn modules twice. First, I went through the standard SC-200 materials and then through the instructor-led modules. This comprehensive approach helped reinforce my knowledge and identify gaps.
 
 **Hands-on Labs**:
@@ -58,7 +54,6 @@ I used both the Microsoft Learn practice exams and Whizlabs. These were instrume
 
 **Kusto Query Language (KQL)**:
 KQL is a significant component of the exam. I mainly focused on resources like:
-
 - [MustLearnKQL GitHub Repository](https://github.com/rod-trent/MustLearnKQL)
 - [KQL Cheat Sheet](https://github.com/marcusbakker/KQL/blob/master/kql_cheat_sheet.pdf)
 - [Kusto Detective Agency](https://detective.kusto.io/)
@@ -66,11 +61,10 @@ KQL is a significant component of the exam. I mainly focused on resources like:
 ### Additional Learning Resources
 
 **YouTube**:
-I found the [AzureVlog](https://www.youtube.com/channel/UC_5b0_6qIt8DCC5zbz3XivA) YouTube channel particularly useful for deployment and threat hunting videos. It's a great resource for visual learners.
+I found the [AzureVlog](https://www.youtube.com/@AzureVlog) YouTube channel particularly useful for deployment and threat hunting videos. It's a great resource for visual learners.
 
 **Udemy**:
 I tried the following Udemy courses:
-
 - [SC-200 Microsoft Security Operations Analyst Course & SIMs](https://www.udemy.com/course/microsoft-security-operations-analyst-course-sims/)
 - [SC-200: Microsoft Security Operations Analyst](https://www.udemy.com/course/sc-200-microsoft-security-operations-analyst-exam-prep/)
 
@@ -93,10 +87,11 @@ During my exam, I encountered one case study and around 50 questions. The exam w
 
 While studying for SC-200, don't forget to complete the MS Applied Skill [Configure SIEM security operations using Microsoft Sentinel - Applied Skills](https://learn.microsoft.com/en-us/credentials/applied-skills/configure-siem-security-operations-using-microsoft-sentinel/). This will enhance your practical skills in deploying and managing Sentinel, a critical part of the SC-200 exam.
 
+Check out [AzureVlog - Microsoft Sentinel Setup and Configuration (youtube.com)](https://www.youtube.com/watch?v=PHttrOBZxfA) to learn how to setup and configure Sentinel. 
+
 ### Microsoft Applied Skills
 
 Microsoft describes Applied Skills as targeted validation for real-world scenarios. These skills help you:
-
 - Focus on specific, critical business problems.
 - Earn credentials through hands-on, scenario-based assessments.
 - Elevate your professional profile with verified Microsoft credentials.
@@ -109,4 +104,4 @@ Another excellent resource is the [KQLCheat by Fortytwo - Interactive KQL Cheats
 
 ## Conclusion
 
-Passing the SC-200 exam is challenging but achievable with the right resources and strategies. Focus on your weaker areas, leverage hands-on labs, and utilize various study materials to ensure a well-rounded preparation. Good luck with your certification journey!
+Passing the SC-200 exam is challenging but achievable with the right resources and strategies. Focus on your weaker areas, leverage hands-on labs, and utilize various study materials to ensure a well-rounded preparation. Good luck with your certification!
