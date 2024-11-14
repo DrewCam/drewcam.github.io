@@ -1,6 +1,12 @@
-
 # Fàilte!, Is mise Drew 👋
 
-## A Little Bit About Me
 
-Cyber Security Analyst focusing on Microsoft Cloud technologies. This is my wee corner of the net to share the bits and bobs that I find interesting or might help someone out there.
+## [Blog](./blog/index.md)
+
+Articles on cybersecurity, cloud services, and personal tech explorations.
+
+## [Obsidian](./Obsidian/index.md)
+
+Snippets and musings on note-taking and knowledge management system.
+
+[About me and Socials](about.md)

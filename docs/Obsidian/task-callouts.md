@@ -2,9 +2,12 @@
 
 I was asked to share my task callouts, so here they are. I use these to manage my tasks in Obsidian. I tag my tasks with `#task` and use the following callouts to manage them.
 
-plugins
-- Dataview
-- tasks
+## plugins
+
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
+- [tasks](https://publish.obsidian.md/tasks/Introduction)
+
+## Callouts
 
 ```markdown
 ---

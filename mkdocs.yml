@@ -61,6 +61,11 @@ palette:
 # Plugins
 plugins:
   - blog
+      blog_dir: blog
+      post_url_format: "{categories}/{slug}"
+      post_url_max_catergories: 2
+      post_excerpt_separator: <!-- more -->
+      categories: true
   - tags
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
