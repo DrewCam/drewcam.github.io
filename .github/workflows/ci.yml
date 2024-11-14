@@ -37,4 +37,7 @@ jobs:
                       mkdocs-git-revision-date-localized-plugin \
                       diskcache
 
-      - run: mkdocs gh-deploy --force
+      - name: Deploy to GitHub Pages
+        env:
+          GA_KEY: ${{ secrets.GA_KEY }}
+        run: mkdocs gh-deploy --force
