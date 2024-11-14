@@ -16,7 +16,7 @@
 }
 
 [data-md-color-scheme="light"] {
-  /* Light Theme Colors (for toggle) */
+  /* Light Mode Colors (for toggle) */
   --md-default-bg-color: #fdf6e3; /* Soft beige background */
   --md-default-fg-color: #4d4a3f; /* Darker warm gray for text */
   --md-accent-fg-color: #6b8e23; /* Olive green for links and accents */
@@ -24,7 +24,7 @@
   --md-border-color: #e0d9b6; /* Light beige for borders */
 }
 
-/* Apply background and text colors */
+/* General Background and Text Colors */
 body, .md-typeset {
   background-color: var(--md-default-bg-color);
   color: var(--md-default-fg-color);
@@ -76,4 +76,36 @@ button:hover, .md-button:hover {
   color: var(--md-default-fg-color);
   border: 1px solid var(--md-border-color);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Header background and text color */
+.md-header {
+  background-color: #2f3437; /* Dark background for header */
+  color: #d3d4d5; /* Light gray for header text */
+}
+
+.md-header .md-nav__link,
+.md-header .md-nav__title,
+.md-header .md-header__title {
+  color: #d3d4d5; /* Header link color to match text */
+}
+
+.md-header .md-nav__link:hover,
+.md-header .md-nav__title:hover,
+.md-header .md-header__title:hover {
+  color: #9fb86f; /* Green accent color on hover */
+}
+
+/* Search box styling */
+.md-header .md-search__input {
+  background-color: #232629; /* Darker background for search box */
+  color: #d3d4d5; /* Light text in the search box */
+}
+
+.md-header .md-search__input::placeholder {
+  color: #7a8d55; /* Subtle green for placeholder text */
+}
+
+.md-header .md-search__icon {
+  color: #9fb86f; /* Green accent for search icon */
 }
