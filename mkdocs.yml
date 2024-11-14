@@ -3,16 +3,23 @@ site_url: https://drewcam.github.io
 site_author: Drew C.
 site_description: A personal Docs and Blog site.
 
-# Repository
-
-repo_name: DrewCam #/drewcam.github.io
+# Repository Information
+repo_name: DrewCam
 repo_url: https://github.com/DrewCam/drewcam.github.io
 
-# Themes
+# Theme Configuration
 theme:
- name: material
- custom_dir: material/overrides
- features:
+  name: material
+  custom_dir: material/overrides
+  language: en
+  favicon: images/favicon.png
+  #logo: images/logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
     - announce.dismiss
     - navigation.tabs
     - navigation.tabs.sticky
@@ -35,12 +42,23 @@ theme:
     - content.code.copy
     - content.action.view
     - content.tooltips
- language: en
- favicon: images/favicon.png
- #logo: images/logo.png
- icon:
-   repo: fontawesome/brands/git-alt
 
+# Color Schemes
+palette:
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to light mode
+    primary: teal
+    accent: deep purple
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+    primary: teal
+    accent: deep purple
+
+# Plugins
 plugins:
   - blog
   - tags
@@ -53,9 +71,9 @@ plugins:
   - social:
       cards_layout: default
 
+# Markdown Extensions
 markdown_extensions:
-
-  # Python Markdown
+  # Built-in Markdown Extensions
   - abbr
   - admonition
   - attr_list
@@ -65,7 +83,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
-  # Python Markdown Extensions
+  # pymdownx Extensions
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -87,10 +105,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Copyright
-copyright: |
-  &copy; 2024 <a href="https://github.com/DrewCam"  target="_blank" rel="noopener">Drew Cameron</a>
-
+# Extra Configuration
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -104,10 +119,15 @@ extra:
     provider: google
     property: !ENV GA_KEY
 
+# Copyright Information
+copyright: |
+  &copy; 2024 <a href="https://github.com/DrewCam" target="_blank" rel="noopener">Drew Cameron</a>
+
+# Navigation
 nav:
   - Home: index.md
   - Blog: blog/index.md
   - Obsidian:
-    - Obsidian/index.md
-    - Task Callouts: Obsidian/task-callouts.md
+      - Obsidian/index.md
+      - Task Callouts: Obsidian/task-callouts.md
   #  - About: about.md
