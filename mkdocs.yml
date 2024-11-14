@@ -46,6 +46,7 @@ theme:
 # Color Schemes
   palette:
     # Palette toggle for light mode
+    accent:  Purple
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
@@ -53,6 +54,7 @@ theme:
         name: Switch to dark mode
 
     # Palette toggle for dark mode
+    accent: Deep Purple
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
