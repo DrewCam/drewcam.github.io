@@ -8,8 +8,8 @@ site_description: A personal Docs and Blog site.
 repo_name: DrewCam/drewcam.github.io
 repo_url: https://github.com/DrewCam/drewcam.github.io
 
-#extra_css:
-#  - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
   palette:
