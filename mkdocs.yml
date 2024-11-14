@@ -44,8 +44,7 @@ theme:
     - content.tooltips
 
 # Color Schemes
-palette:
-
+  palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
