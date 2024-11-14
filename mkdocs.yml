@@ -11,10 +11,10 @@ repo_url: https://github.com/DrewCam/drewcam.github.io
 theme:
   name: material
   palette:
-    scheme: slate  # Defaults to dark mode (slate scheme)
+    scheme: slate  # Sets dark mode as the default
     toggle:
-      icon: material/weather-sunny  # Sun icon for light mode toggle
-      name: "Switch to light mode"  # Tooltip text for the toggle
+      icon: material/weather-sunny  # Light mode toggle icon
+      name: "Switch to light mode"  # Label for the toggle
   font:
     text: 'Inter, sans-serif'
     code: 'Fira Code, monospace'
