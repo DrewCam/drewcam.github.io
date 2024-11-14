@@ -107,6 +107,7 @@ markdown_extensions:
 
 # Extra Configuration
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/DrewCam
@@ -122,6 +123,7 @@ extra:
 # Copyright Information
 copyright: |
   &copy; 2024 <a href="https://github.com/DrewCam" target="_blank" rel="noopener">Drew Cameron</a>
+
 
 # Navigation
 nav:
