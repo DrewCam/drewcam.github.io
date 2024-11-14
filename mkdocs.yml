@@ -78,7 +78,7 @@ extra:
 
   analytics:
     provider: google
-    property: G-VZ89RH4M5X
+    property: !ENV GA_KEY
 
 nav:
   - Home: index.md
