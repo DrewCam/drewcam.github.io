@@ -1,22 +1,69 @@
 :root {
-    --md-primary-fg-color: #9fb86f;
-    --md-primary-fg-color--light: #dcff99;
-    --md-primary-fg-color--dark: #57653d;
+  /* Common primary colors */
+  --md-primary-fg-color: #9fb86f; /* Green accent */
+  --md-primary-fg-color--light: #dcff99;
+  --md-primary-fg-color--dark: #57653d;
 }
 
 [data-md-color-scheme="slate"] {
-    --md-hue: 100;
+  /* Dark mode (default) settings */
+  --md-default-bg-color: #2e2f31;
+  --md-default-fg-color: #dcdcdc;
+  --md-default-fg-color--light: #ffffff;
+  --md-accent-fg-color: #61afef;
+  --md-accent-fg-color--hover: #528bbd;
+  --md-card-border-color: #3e4451;
+  --md-shadow: rgba(0, 0, 0, 0.4);
 }
 
-[data-md-color-scheme="light-forest"] {
-    --md-primary-fg-color:        #4CAF50; /* Vibrant green, like fresh leaves */
-    --md-primary-fg-color--light: #C8E6C9; /* Light green, reminiscent of sunlit leaves */
-    --md-primary-fg-color--dark:  #388E3C; /* Darker green, representing the deeper parts of the forest */
-  }
+[data-md-color-scheme="light"] {
+  /* Light mode styling */
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #333333;
+  --md-default-fg-color--light: #000000;
+  --md-accent-fg-color: #007acc;
+  --md-accent-fg-color--hover: #005b9f;
+  --md-card-border-color: #e0e0e0;
+  --md-shadow: rgba(0, 0, 0, 0.1);
+}
 
-  [data-md-color-scheme="dark-forest"] {
-    --md-primary-fg-color:        #1B5E20; /* Deep forest green */
-    --md-primary-fg-color--light: #4C8C4A; /* Mid-tone green, like moss */
-    --md-primary-fg-color--dark:  #003300; /* Very dark green, almost black, like the forest at night */
-  }
-  
+/* Apply background and text colors based on the selected mode */
+body, .md-typeset {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--md-default-fg-color--light);
+  font-weight: bold;
+}
+
+/* Code blocks */
+.md-typeset code, .md-typeset pre {
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Link and button colors */
+a {
+  color: var(--md-accent-fg-color);
+}
+a:hover {
+  color: var(--md-accent-fg-color--hover);
+}
+
+button, .md-button {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  border-radius: 4px;
+}
+
+/* Card styling */
+.md-card {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-card-border-color);
+  box-shadow: 0px 2px 4px var(--md-shadow);
+}

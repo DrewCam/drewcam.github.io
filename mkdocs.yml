@@ -8,15 +8,16 @@ site_description: A personal Docs and Blog site.
 repo_name: DrewCam/drewcam.github.io
 repo_url: https://github.com/DrewCam/drewcam.github.io
 
-extra_css:
-  - stylesheets/extra.css
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: deep purple
-    accent: cyan
-
+    scheme: slate  # Defaults to dark mode (slate scheme)
+    toggle:
+      icon: material/weather-sunny  # Sun icon for light mode toggle
+      name: "Switch to light mode"  # Tooltip text for the toggle
+  font:
+    text: 'Inter, sans-serif'
+    code: 'Fira Code, monospace'
   features:
     - navigation.tabs
     - navigation.sections
@@ -31,6 +32,9 @@ theme:
     - content.code.annotate
     - content.code.copy
   language: en
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - blog
