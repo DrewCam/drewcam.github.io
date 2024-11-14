@@ -5,36 +5,41 @@ site_description: A personal Docs and Blog site.
 
 # Repository
 
-repo_name: DrewCam/drewcam.github.io
+repo_name: DrewCam #/drewcam.github.io
 repo_url: https://github.com/DrewCam/drewcam.github.io
 
+# Themes
 theme:
-  name: material
-  palette:
-    scheme: slate  # Sets dark mode as the default
-    toggle:
-      icon: material/weather-sunny  # Light mode toggle icon
-      name: "Switch to light mode"  # Label for the toggle
-  font:
-    text: 'Inter, sans-serif'
-    code: 'Fira Code, monospace'
-  features:
+ name: material
+ custom_dir: material/overrides
+ features:
+    - announce.dismiss
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.path
+    - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - toc.follow
     - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
-  language: en
-
-extra_css:
-  - stylesheets/extra.css
+    - content.action.view
+    - content.tooltips
+ language: en
+ favicon: images/favicon.png
+ logo: images/logo.png
+ icon:
+   repo: fontawesome/brands/git-alt
 
 plugins:
   - blog
@@ -43,33 +48,48 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true
+      type: date
+  - social:
+      cards_layout: default
 
 markdown_extensions:
-  - pymdownx.highlight:
-      linenums: true
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-      clickable_checkbox: true
-  - admonition
+
+  # Python Markdown
   - abbr
+  - admonition
   - attr_list
   - def_list
   - footnotes
-  - tables
+  - md_in_html
   - toc:
       permalink: true
+
+  # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Copyright
+copyright: |
+  &copy; 2024 <a href="https://github.com/DrewCam"  target="_blank" rel="noopener">Drew Cameron</a>
 
 extra:
   social:
