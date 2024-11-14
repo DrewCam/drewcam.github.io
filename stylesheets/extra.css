@@ -1,0 +1,111 @@
+:root {
+  /* Primary Accent Color (Green) */
+  --md-primary-fg-color: #9fb86f; /* Green accent color */
+  --md-primary-fg-color--light: #dcff99;
+  --md-primary-fg-color--dark: #57653d;
+}
+
+[data-md-color-scheme="slate"] {
+  /* Dark Mode Colors */
+  --md-default-bg-color: #2f3437; /* Soft dark background */
+  --md-default-fg-color: #d3d4d5; /* Light gray for primary text */
+  --md-accent-fg-color: #9fb86f; /* Soft green accent color */
+  --md-accent-fg-color--hover: #7a8d55; /* Darker green for hover effects */
+  --md-sidebar-bg-color: #232629; /* Darker sidebar background */
+  --md-border-color: #3e4451; /* Border color for elements like cards */
+}
+
+[data-md-color-scheme="light"] {
+  /* Light Mode Colors (for toggle) */
+  --md-default-bg-color: #fdf6e3; /* Soft beige background */
+  --md-default-fg-color: #4d4a3f; /* Darker warm gray for text */
+  --md-accent-fg-color: #6b8e23; /* Olive green for links and accents */
+  --md-accent-fg-color--hover: #556b2f; /* Darker olive green for hover */
+  --md-border-color: #e0d9b6; /* Light beige for borders */
+}
+
+/* General Background and Text Colors */
+body, .md-typeset {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+/* Sidebar Styling */
+.md-sidebar {
+  background-color: var(--md-sidebar-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--md-default-fg-color);
+  font-weight: bold;
+}
+
+/* Link styling */
+a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--md-accent-fg-color--hover);
+}
+
+/* Button styling */
+button, .md-button {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  border-radius: 4px;
+}
+button:hover, .md-button:hover {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Code blocks */
+.md-typeset code, .md-typeset pre {
+  background-color: #2b2f31; /* Dark background for code blocks */
+  color: #dcdcdc; /* Light text for code */
+  font-family: 'Fira Code', monospace;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* Card styling */
+.md-card {
+  background-color: #2f3437; /* Soft dark gray for cards */
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-border-color);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Header background and text color */
+.md-header {
+  background-color: #2f3437; /* Dark background for header */
+  color: #d3d4d5; /* Light gray for header text */
+}
+
+.md-header .md-nav__link,
+.md-header .md-nav__title,
+.md-header .md-header__title {
+  color: #d3d4d5; /* Header link color to match text */
+}
+
+.md-header .md-nav__link:hover,
+.md-header .md-nav__title:hover,
+.md-header .md-header__title:hover {
+  color: #9fb86f; /* Green accent color on hover */
+}
+
+/* Search box styling */
+.md-header .md-search__input {
+  background-color: #232629; /* Darker background for search box */
+  color: #d3d4d5; /* Light text in the search box */
+}
+
+.md-header .md-search__input::placeholder {
+  color: #7a8d55; /* Subtle green for placeholder text */
+}
+
+.md-header .md-search__icon {
+  color: #9fb86f; /* Green accent for search icon */
+}
