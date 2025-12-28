@@ -31,6 +31,8 @@ Some gamified learning platforms for learning and tinkering.
 - [tryhackme](https://tryhackme.com/) Has loads their new soc pathways are pretty good.
 - [Kusto Detective Agency](https://detective.kusto.io/) KQL is a query language used in Azure Sentinel and Defender. see [Rod Trent's MustLearnKQL](https://github.com/rod-trent/MustLearnKQL) for more
 - [hackthebox](https://academy.hackthebox.com/) Gamified pen testing labs and learning.
+- [Oh My Git!](https://ohmygit.org/) - Open source game for learning Git.
+
 
 ## SOC Analyst
 
@@ -116,3 +118,7 @@ Other links and resources that may prove useful.
 
 - [ASD Alerts & Advisories](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories)
 - [CISA  - America's Cyber Defense Agency](https://www.cisa.gov/news-events/cybersecurity-advisories)
+
+## Documentation, Programming and Scripting.
+
+https://learn.taggart-tech.com/p/python-for-defenders-pt1
