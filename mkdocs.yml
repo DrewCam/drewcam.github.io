@@ -43,23 +43,21 @@ theme:
     - content.action.view
     - content.tooltips
 
-# Color Schemes
-  palette:
-    # Palette toggle for light mode
-    accent:  Purple
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+# Colour Schemes
+palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    accent: Purple
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
 
-    # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
     accent: Deep Purple
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
 
 # Plugins
 plugins:
