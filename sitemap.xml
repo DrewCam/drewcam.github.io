@@ -2,70 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://drewcam.github.io/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/about/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/Obsidian/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/Obsidian/task-callouts/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/cybersecurity/certifications/passing-sc-200/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/cybersecurity/resources/cybersecurity-useful-links/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/hello/world/hello-world/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
+    </url>
+    <url>
+         <loc>https://drewcam.github.io/blog/cybersecurity/threat-intelligence/opencti-lab-vm-build/</loc>
+         <lastmod>2025-12-28</lastmod>
+    </url>
+    <url>
+         <loc>https://drewcam.github.io/blog/archive/2025/</loc>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/archive/2024/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/archive/2023/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/cybersecurity/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
+    </url>
+    <url>
+         <loc>https://drewcam.github.io/blog/category/threat-intelligence/</loc>
+         <lastmod>2025-12-28</lastmod>
+    </url>
+    <url>
+         <loc>https://drewcam.github.io/blog/category/lab/</loc>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/certifications/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/microsoft/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/security-operations-analyst/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/resources/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/hello/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
     <url>
          <loc>https://drewcam.github.io/blog/category/world/</loc>
-         <lastmod>2024-11-14</lastmod>
+         <lastmod>2025-12-28</lastmod>
     </url>
 </urlset>
