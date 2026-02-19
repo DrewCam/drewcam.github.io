@@ -23,7 +23,7 @@ Based on the advisory from the [ACSC](https://www.cyber.gov.au/about-us/advisori
 
 1. Volt Typhoon could use known living-off-the-land binary (LOLBin) commands and procedures, as indicated by past behaviours targeting similar entities in the U.S.
 2. There is a potential that despite no detections by current signature-based tools, these adversaries might be operating undetected due to their sophisticated use of native tools and processes.
-3. The custom SHA256 hashes associated with FRP executables represent Volt Typhoon’s custom tools, previously identified in engagements and potentially updated to evade signature-based detection.
+3. The custom SHA256 hashes associated with FRP executables represent Volt Typhoon's custom tools, previously identified in engagements and potentially updated to evade signature-based detection.
 
 ### Investigation Goals
 
