@@ -28,7 +28,7 @@ Based on the advisory from the [ACSC](https://www.cyber.gov.au/about-us/advisori
 ### Investigation Goals
 
 - **Verify the absence of known Volt Typhoon tactics:** Use historical and current logs to ensure that there have been no executions of suspicious command lines or process creations that align with Volt Typhoon's modus operandi.
-- **Scrutinize for anomalies or outliers:** Given the group’s known reliance on LOLBins and stealth tactics, any unusual use of system tools or commands related to domain controller configuration, proxy settings, and known malicious hashes should be closely examined.
+- **Scrutinize for anomalies or outliers:** Given the group's known reliance on LOLBins and stealth tactics, any unusual use of system tools or commands related to domain controller configuration, proxy settings, and known malicious hashes should be closely examined.
 - **Proactive threat identification:** Even if Volt Typhoon's specific signatures are not found, it is critical to identify deviations from baseline behaviours that might indicate similar adversary TTPs (Tactics, Techniques, and Procedures).
 
 ### Hypothesized Activities to Monitor
@@ -46,18 +46,21 @@ Based on the advisory from the [ACSC](https://www.cyber.gov.au/about-us/advisori
 ## Details
 
 Find commands creating domain controller installation media
+
 ```kusto
 DeviceProcessEvents
 | where ProcessCommandLine has_all ("ntdsutil", "create full", "pro")
 ```
 
 Find commands establishing internal proxies
+
 ```kusto
 DeviceProcessEvents
 | where ProcessCommandLine has_all ("portproxy", "netsh", "wmic", "process call create", "v4tov4")
 ```
 
 Find detections of custom FRP executables
+
 ```kusto
 AlertEvidence
 | where SHA256 in 
@@ -84,6 +87,7 @@ AlertEvidence
 
 [CreateDCInstallationMedia](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Windows%20Security%20Events/Hunting%20Queries/CreateDCInstallationMedia.yaml)
 detect attempts to create installation media from domain controllers either remotely or locally using a commandline tool called ntdsutil These media are intended to be used in the installation of new domain controllers
+
 ```kusto
 (union isfuzzy=true 
     (SecurityEvent
