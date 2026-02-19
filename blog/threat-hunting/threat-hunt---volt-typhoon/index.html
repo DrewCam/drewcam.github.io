@@ -743,7 +743,7 @@
 <h3 id="investigation-goals">Investigation Goals<a class="headerlink" href="#investigation-goals" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Verify the absence of known Volt Typhoon tactics:</strong> Use historical and current logs to ensure that there have been no executions of suspicious command lines or process creations that align with Volt Typhoon's modus operandi.</li>
-<li><strong>Scrutinize for anomalies or outliers:</strong> Given the group’s known reliance on LOLBins and stealth tactics, any unusual use of system tools or commands related to domain controller configuration, proxy settings, and known malicious hashes should be closely examined.</li>
+<li><strong>Scrutinize for anomalies or outliers:</strong> Given the group's known reliance on LOLBins and stealth tactics, any unusual use of system tools or commands related to domain controller configuration, proxy settings, and known malicious hashes should be closely examined.</li>
 <li><strong>Proactive threat identification:</strong> Even if Volt Typhoon's specific signatures are not found, it is critical to identify deviations from baseline behaviours that might indicate similar adversary TTPs (Tactics, Techniques, and Procedures).</li>
 </ul>
 <h3 id="hypothesized-activities-to-monitor">Hypothesized Activities to Monitor<a class="headerlink" href="#hypothesized-activities-to-monitor" title="Permanent link">&para;</a></h3>
@@ -759,15 +759,15 @@
 <li><a href="https://soc.cyber.wa.gov.au/advisories/20230525001-State-Sponsored-Cyber-Actor-Living-off-the-Land-to-Evade-Detection/?h=volt">Detection Guidance for Volt Typhoon - 20230525001 - WA Cyber Security Unit (DGOV Technical)</a></li>
 </ul>
 <h2 id="details">Details<a class="headerlink" href="#details" title="Permanent link">&para;</a></h2>
-<p>Find commands creating domain controller installation media
+<p>Find commands creating domain controller installation media</p>
 <div class="highlight"><pre><span></span><code><span class="n">DeviceProcessEvents</span>
 <span class="p">|</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">ProcessCommandLine</span><span class="w"> </span><span class="n">has_all</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;ntdsutil&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;create full&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;pro&quot;</span><span class="p">)</span>
-</code></pre></div></p>
-<p>Find commands establishing internal proxies
+</code></pre></div>
+<p>Find commands establishing internal proxies</p>
 <div class="highlight"><pre><span></span><code><span class="n">DeviceProcessEvents</span>
 <span class="p">|</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">ProcessCommandLine</span><span class="w"> </span><span class="n">has_all</span><span class="w"> </span><span class="p">(</span><span class="s">&quot;portproxy&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;netsh&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;wmic&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;process call create&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;v4tov4&quot;</span><span class="p">)</span>
-</code></pre></div></p>
-<p>Find detections of custom FRP executables
+</code></pre></div>
+<p>Find detections of custom FRP executables</p>
 <div class="highlight"><pre><span></span><code><span class="n">AlertEvidence</span>
 <span class="p">|</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">SHA256</span><span class="w"> </span><span class="n">in</span><span class="w"> </span>
 <span class="w">    </span><span class="p">(</span><span class="s">&#39;baeffeb5fdef2f42a752c65c2d2a52e84fb57efc906d981f89dd518c314e231c&#39;</span><span class="p">,</span><span class="w"> </span>
@@ -789,9 +789,9 @@
 <span class="w">    </span><span class="s">&#39;d17317e1d5716b09cee904b8463a203dc6900d78ee2053276cc948e4f41c8295&#39;</span><span class="p">,</span><span class="w"> </span>
 <span class="w">    </span><span class="s">&#39;472ccfb865c81704562ea95870f60c08ef00bcd2ca1d7f09352398c05be5d05d&#39;</span><span class="p">,</span><span class="w"> </span>
 <span class="w">    </span><span class="s">&#39;3e9fc13fab3f8d8120bd01604ee50ff65a40121955a4150a6d2c007d34807642&#39;</span><span class="p">)</span>
-</code></pre></div></p>
+</code></pre></div>
 <p><a href="https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Windows%20Security%20Events/Hunting%20Queries/CreateDCInstallationMedia.yaml">CreateDCInstallationMedia</a>
-detect attempts to create installation media from domain controllers either remotely or locally using a commandline tool called ntdsutil These media are intended to be used in the installation of new domain controllers
+detect attempts to create installation media from domain controllers either remotely or locally using a commandline tool called ntdsutil These media are intended to be used in the installation of new domain controllers</p>
 <div class="highlight"><pre><span></span><code><span class="p">(</span><span class="k">union</span><span class="w"> </span><span class="n">isfuzzy</span><span class="p">=</span><span class="n">true</span><span class="w"> </span>
 <span class="w">    </span><span class="p">(</span><span class="n">SecurityEvent</span>
 <span class="w">    </span><span class="p">|</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">EventID</span><span class="w"> </span><span class="p">==</span><span class="w"> </span><span class="mi">4688</span>
@@ -843,7 +843,7 @@ detect attempts to create installation media from domain controllers either remo
 <span class="w">        </span><span class="n">SubjectLogonId</span>
 <span class="w">    </span><span class="p">)</span>
 <span class="p">)</span>
-</code></pre></div></p>
+</code></pre></div>
 <p><a href="https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Windows%20Security%20Events/Hunting%20Queries/InternalProxies.yaml">InternalProxies</a> This hunting query helps to detect attempts to create proxies on compromised systems using the built-in netsh portproxy command. VoltTyphoon has been seen creating these proxies on compromised hosts to manage command and control communications.</p>
 <div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">(</span><span class="k">union</span><span class="w"> </span><span class="n">isfuzzy</span><span class="p">=</span><span class="n">true</span><span class="w"> </span>
 <span class="w">    </span><span class="p">(</span><span class="n">SecurityEvent</span>
@@ -994,7 +994,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     <!-- mkdocs-git-revision-date-localized-plugin -->
     
     Last update:
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 19, 2026 03:37:21 UTC">February 19, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 19, 2026 03:39:10 UTC">February 19, 2026</span>
     
         <br />
         Created:
