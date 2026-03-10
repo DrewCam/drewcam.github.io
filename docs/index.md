@@ -1,7 +1,5 @@
 # Fàilte! Is mise Drew 👋
 
-Cyber Security Analyst — Melbourne, Australia.
-
 ---
 
 <div class="grid cards" markdown>
