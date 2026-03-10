@@ -109,3 +109,18 @@ button:hover, .md-button:hover {
 .md-header .md-search__icon {
   color: #9fb86f; /* Green accent for search icon */
 }
+
+/* Portal grid cards */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-border-color, #3e4451);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color, #9fb86f);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Social buttons row */
+.md-typeset .md-button {
+  margin: 0.25rem;
+}

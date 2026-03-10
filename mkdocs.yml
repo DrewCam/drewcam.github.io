@@ -111,6 +111,10 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+# Stylesheets
+extra_css:
+  - stylesheets/extra.css
+
 # Extra Configuration
 extra:
   generator: false
@@ -138,4 +142,6 @@ nav:
   - Obsidian:
       - Obsidian/index.md
       - Task Callouts: Obsidian/task-callouts.md
+  - Cyber Landscape AU: https://drewcam.github.io/cyber-landscape-au
+  - CyberPath AU: https://drewcam.github.io/cyberpath-au/
   #  - About: about.md
